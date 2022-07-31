@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-item{
+  margin-right: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.nav-item:hover{
+background-color: rgb(63, 63, 193);
+border-radius: 4px;
+}
+
+@media screen and (min-width: 990px){
+.navbar-nav{
+  margin-right: 0%;
+  margin-left: 10%;
+  padding-left: 0%;
+  padding-right:0%;
+}
+}
