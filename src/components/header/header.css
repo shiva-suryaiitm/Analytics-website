@@ -1,12 +1,11 @@
 .header-1{
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 0% 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
 }
 .header-para{
     background: linear-gradient(to bottom,rgb(44, 213, 44) 0% , rgb(75, 75, 227) 100%);
     background-size: 100%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    padding: 0;
 }

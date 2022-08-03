@@ -1,40 +1,31 @@
 /* eslint-disable react/jsx-pascal-case */
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
 import Navbar from './components/Navbar';
-import Achievements from './components/achievement/achievements';
-import Interiit from './components/inter-iit';
-import Carousel from './components/carousel';
+import AchievementsAndInteriit from './components/final achievements page/final-page';
+import Events_Page from './components/final-events-page/events-page';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Navbar/>
-
-        <div className='box1'>
-          <br></br>
-          <h1><i>Achievements</i></h1>
-            <div className="b-1">
-              <Achievements/>
-              <Achievements/>
-            </div>
-        </div>
-
-        <div className='box2'>
-          <br></br>
-          <h1><i>Inter-IIT</i></h1>
-          <div className="b-2">
-                <div className='innercover-1'>
-                <Carousel/>
-                </div>
-                <Interiit/>
+    <BrowserRouter>
+      <div className="App">
+          <div>
+            <Header/>
+            <Navbar/>
           </div>
-        </div>
 
-      <Footer/>
-    </div>
+            <Routes>
+              <Route path="/">
+                  *<Route path='events' element={<Events_Page/>} />
+                  <Route path='achievements' element={<AchievementsAndInteriit/>} />
+              </Route>
+            </Routes>
+          
+          <Footer/>
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,5 +1,4 @@
-import img from '../images/analytics club.jpg'
-import pic from '../images/igem image.jpg'
+import './box2.css'
 
 const Interiit = () => {
   return (

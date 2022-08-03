@@ -1,5 +1,5 @@
 import pic from '../../images/analytics club.jpg'
-import "./achivements-box-1.css"
+import "./achievements-box-1.css"
 
 const Achievements = () => {
   return (

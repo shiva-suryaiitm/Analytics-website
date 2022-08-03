@@ -1,0 +1,151 @@
+.footer-achievements{
+    background-color: black;
+}
+
+.row-footer{
+    padding-bottom: 3%;
+    margin-left: 1%;
+}
+
+.nav-link-footer{
+    margin-top: 0%;
+    padding-top: 0%;
+    background: black;
+    color: gray;
+    text-align: center;
+    background-size: 100%;
+}
+
+.nav-link-footer:hover{
+    background: black;
+    text-decoration-color: lightgray;
+    color:lightgray;
+}
+.navbar-footer{
+    background: transparent;
+}
+
+.navbar-footer-menu{
+    background: black;
+    margin-top: 0%;
+}
+
+.nav-item-footer{
+    font-size: 80%;
+    margin-top: 5%;
+}
+
+.copyright-stat{
+    color: white;
+    opacity: 0.75;
+}
+
+/*.unique-menu-col , .unique-social-media , .unique-copyright{
+    border: 2px white solid;
+}
+.nav-container,.copyright,.media-links,.follow-us-container{
+    border: 2px wheat solid;
+}*/
+
+
+
+@media screen and (min-width:576px) {
+   
+    .unique-social-media , .unique-menu-col{
+        margin-top: 5%;
+        border-right: 1px rgb(128, 126, 126,0.75) solid;
+    }
+
+    .unique-copyright{
+        margin-top: 5%;
+    }
+
+    .copyright-stat{
+        margin-top: 3%;
+    }
+
+    .copyright{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15%;
+        margin-left:2%;
+    }
+    .copyright{
+        margin-left: 1%;
+        justify-content: left;
+    }
+
+    .media-links{
+        display: flex;
+        margin-top: 0%;
+        margin-left: 3%;
+        justify-content: center;
+    }
+    .follow-us-container{
+        color: rgba(240, 230, 230, 0.85);
+        display: flex;
+        justify-content: bottom;
+        align-items: bottom;
+        padding: 0%;
+        margin-bottom: 0;
+        margin-top: 13%;
+        margin-left: 3%;
+    }
+    .footer-icons{
+        flex: 1;
+    }
+    .nav-container{
+        display: flex;
+        justify-content: right;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+   
+    .unique-social-media , .unique-menu-col{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    .nav-container,.media-links{
+        border-bottom: 1px rgb(128, 126, 126,0.75) solid;
+        margin-left: 4%;
+        margin-right: 4%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .media-links{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-icons{
+        flex: 1;
+        margin: 2%;
+    }
+
+    .follow-us-container{
+        color: rgba(240, 230, 230, 0.85);
+    }
+
+    .copyright{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:990px) {
+
+    .copyright{
+        justify-content: center;
+    }
+}
+
+.footer-img{
+    margin-left: 5%;
+}
+
+
