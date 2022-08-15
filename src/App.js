@@ -1,31 +1,37 @@
-//import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Live_events from './components/live_events';
-import Past_events from './components/past_events';
-import Footer from './components/Footer';
+/* eslint-disable react/jsx-pascal-case */
+import "./App.css";
+import Footer from "./components/footer/Footer";
+import Project from "./structured-page/Project/Project";
+import Navbar from "./components/Navbar";
+import AchievementsAndInteriit from "./structured-page/achievements-page/final-achievements-page";
+import Events_Page from "./structured-page/events-page/events-page";
+import Resource from "./structured-page/Resource/Resource";
+import Team from "./structured-page/Team/Team";
+import Blog from "./structured-page/Blog/Blog";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
-  const h =7
   return (
-    <div className="App">
-
-        <Header/>
-        <Navbar/>
-
-        <div className="live-events">
-            <h1><i>Live Events</i></h1>
-            <Live_events/>
-            <Live_events/>
+    <BrowserRouter>
+      <div className="App">
+        <div>
+          <Navbar />
         </div>
 
-        <div className="past-events">
-          <h1><i>Past Events</i></h1>
-              <Past_events/>
-              <Past_events/>
-        </div>
-      <Footer/>
-    </div>
+        <Routes>
+          <Route path="/">
+            <Route path="events" element={<Events_Page />} />
+            <Route path="achievements" element={<AchievementsAndInteriit />} />
+            <Route path="projects" element={<Project />} />
+            <Route path="resources" element={<Resource />} />
+            <Route path="teams" element={<Team />} />
+            <Route path="blogs" element={<Blog />} />
+          </Route>
+        </Routes>
+
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,10 @@
+ .maintext {
+     color: orange;
+     font-weight: italic;
+     font-family: "Inter";
+     font-size: 20px;
+     word-spacing: 7px;
+     margin-top: 10px;
+     padding-left: 40px;
+     padding-right: 40px;
+ }
