@@ -1,9 +1,9 @@
 import './header.css';
 const Header = () => {
     return (
-      <header className='header-1'>
-          <p className="fs-1 header-para"><b>IITM Analytics Club</b></p>
-      </header>
+      <h3 className='header-1'>
+          <p className="header-para"><b>IITM Analytics Club</b></p>
+      </h3>
     )
   }
   
