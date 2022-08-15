@@ -1,0 +1,144 @@
+.c1{
+    margin-top: 3%;
+    padding-top: 0%;
+    border:2px solid gray;
+    box-shadow: 2px 0px 5px lightcyan , -2px 0px 5px lightgrey , 0px 2px 5px lightgrey , 0px -2px 5px lightgrey;
+    transition: all 0.25 linear;
+}
+
+.c1:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 0px 5px rgb(126, 239, 239) , -2px 0px 5px gray , 0px 2px 5px rgb(131, 238, 238) , 0px -2px 5px gray;
+    transition-delay: 100ms;
+}
+
+.col1 , .col2{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.col2{
+    margin-top: 4%;
+}
+
+.img-1{
+    border-radius: 30%;
+  }
+
+@media screen and (min-width: 991px){
+    .col1{
+        border : 2px solid lightgray;
+        border-top-style: None;
+        border-right-style: solid;
+        border-bottom-style: None;
+        border-left-style: None;
+    }
+    }
+
+
+.content-ach{
+
+    margin-top: 5%;
+    margin-right:2%;
+    margin-left:2%;
+}
+
+
+/* CSS for Box-2 starts here */
+
+
+.r1{
+    font-family: 'Inter', sans-serif;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    border: 2px solid lightgray;
+    border-radius: 120px;
+    padding: 1% 1%;
+    background-color: lightgray;
+    box-shadow: 2px 0px 5px lightcyan , -2px 0px 5px lightgrey , 0px 2px 5px lightgrey , 0px -2px 5px lightgrey;
+    overflow:hidden;
+}
+
+
+@media screen and (min-width: 990px){
+   .r1{
+    border-radius: 40px;
+   }
+    }
+
+@media screen and (max-width: 700px){
+    .r1{
+        border-radius: 80px;
+    }
+    }
+
+.r1:hover{
+    transition: all 0.25 linear;
+    transform: scale(1.01);
+    box-shadow: 2px 0px 5px rgb(126, 239, 239) , -2px 0px 5px gray , 0px 2px 5px rgb(131, 238, 238) , 0px -2px 5px gray;
+}
+
+
+
+.rows{
+    margin-right: 4%;
+}
+
+.content-ii{
+    text-align: center;
+    margin-bottom: 3%;
+    padding: 2% 2%;
+    overflow:hidden;
+}
+
+a.content-ii{
+    text-decoration-style:solid ;
+    text-decoration-color: brown;
+    background: linear-gradient(to bottom,rgb(219, 2, 53) 0% , rgb(21, 227, 2) 100%);
+    padding: 0%;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+a.content-ii:hover{
+    text-decoration-style: solid;
+    padding: 0%;
+    background: linear-gradient(to bottom,rgb(44, 213, 44) 0% , rgb(75, 75, 227) 100%);
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.bt-1 , .bt-2{
+    background-color: black;
+    height: 10%;
+    margin-top: 50%;
+}
+
+.carousel ,.bt-1 , .bt-2{
+    transition: all 0.05 linear;
+}
+
+.img-1-c{
+    color: black;
+}
+
+.carousel-item {
+    transition: transform 0.6s ease-in-out;
+    border: 2px solid black;
+  }
+  
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 0.6s;
+  }
+
+.outer-caro{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
