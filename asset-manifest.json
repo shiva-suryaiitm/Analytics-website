@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.870e3116.css",
+    "main.js": "/static/js/main.c0f7ca93.js",
+    "static/media/igem image.jpg": "/static/media/igem image.86e0a2244c7743d00cb1.jpg",
+    "static/media/analytics club.jpg": "/static/media/analytics club.930bbfd87ddafcdb37c1.jpg",
+    "index.html": "/index.html",
+    "main.870e3116.css.map": "/static/css/main.870e3116.css.map",
+    "main.c0f7ca93.js.map": "/static/js/main.c0f7ca93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.870e3116.css",
+    "static/js/main.c0f7ca93.js"
+  ]
+}
